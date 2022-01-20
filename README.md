@@ -11,8 +11,8 @@ this language, as well as the fact that Python has a kafka driver
 (`kafka-python`), and the latest version that it supports is `3.8`.
 Make sure that you also have `pipenv` installed.
 
-First, start up kafka and zookeeper, and have them run on the default
-localhost ports. This is needed for the tests as well.
+First, start up kafka and zookeeper, and have them run on the default localhost
+ports (zookeeper: 2181, kafka: 9092). This is needed for the tests as well.
 
 To enter the environment needed to run this code, simply write
 
